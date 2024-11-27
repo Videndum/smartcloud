@@ -8,18 +8,21 @@
 
 The most advanced github action, with functionality overflowing and declaritive configuration to streamline your entire github workflow!
 
-## ProjectsV2 API -- Experimental
+## Development of new features ceased.
 
-Projects Classic is still supported
+Github is rappidly changing the way that their api's work, and while I would love to keep up with them, I'm unable to dedicate the time this project deserves to implement new features. Users are advised to fork the repository and create your own should you need new features. 
 
-I have began to work on the new ProjectsV2 api, which has required us to deploy an app which uses OAuth to interact with the new Projects API. This has not effected the functionality of the rest of the tools and is not required for most of the tools to function.
+### Some old features being deprecated. 
+There are a number of things this project attempted to do, and didn't achieve partically well. I'm deprecating the following features in favor of promoting better solutions with active development: 
+- Automatically package and release: [Use Release-Please](https://github.com/googleapis/release-please/tree/main)
+- Automatically bump version: [Use Release-Please](https://github.com/googleapis/release-please/tree/main)
+- Create Changelogs: [Use Release-Please](https://github.com/googleapis/release-please/tree/main)
 
 ## Index
 
 <!-- toc -->
 
 - [Smartcloud](#smartcloud)
-  - [ProjectsV2 API -- Experimental](#projectsv2-api----experimental)
   - [Index](#index)
   - [Features](#features)
   - [How to get support 👨‍👩‍👧‍👦](#how-to-get-support-)
@@ -45,9 +48,6 @@ I have began to work on the new ProjectsV2 api, which has required us to deploy 
 - Automatically assign to milestones - Keep milestones upto date by automatically assigning issues and pull requests
 - Automatically create Branches - Open branches based on project column, or when an issue is opened.
 - Automatically approve - Setup automatic pull request approval based on conditions.
-- Automatically bump version - Automatically increase the version of your project - Optionally use tags.
-- Automatically package and release - Specify commands to run when new release should be created.
-- Create Changelogs - Automatically create changelogs for your project.
 - Create milestones automatically - Automatically create milestones when a new release is published.
 
 ## How to get support 👨‍👩‍👧‍👦
